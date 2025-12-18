@@ -3,7 +3,7 @@ name: CI-CD (Docker -> Docker Hub -> EC2)
 on:
   push:
     branches:
-      - yaa-branch   # change to your group branch
+      - yaa-branch   
   workflow_dispatch:
 
 env:
